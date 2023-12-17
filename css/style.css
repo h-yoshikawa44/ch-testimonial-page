@@ -64,6 +64,59 @@ a {
 /* main
 -------------------- */
 
+/* Reviewers */
+
+.star-icon {
+  display: inline-block;
+  padding: 12px;
+  background: var(--star);
+  border-radius: 50%;
+}
+
+.reviewers__title {
+  margin-top: 20px;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.reviewers__description {
+  margin-top: 24px;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+.reviewers__check-list {
+  padding-left: 4px;
+  margin-top: 36px;
+  list-style: none;
+}
+
+.reviewers__check-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.reviewers__check-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.reviewers__check-list-item::before {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+  content: '';
+  background-image: url('../images/Done_ring_round_fill.svg');
+}
+
+/* Testmonial Card */
+
 .testmonial-card {
   width: 360px;
   padding: 28px 36px 32px;
