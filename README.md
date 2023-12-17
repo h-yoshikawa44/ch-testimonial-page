@@ -47,7 +47,7 @@
 
 ### Mobile
 
-<img src="./screenshots/mobile.png" alt="overview - mobile" width="60%">
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="50%">
 
 ### Built With
 
