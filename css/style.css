@@ -40,9 +40,27 @@ a {
 -------------------- */
 
 .container {
-  max-width: 1280px;
+  max-width: 640px;
   padding: 0 4%;
   margin: 0 auto;
+}
+
+@media (width > 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (width > 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (width > 1280px) {
+  .container {
+    max-width: 1280px;
+  }
 }
 
 /* header
@@ -195,15 +213,6 @@ mobile～laptop
 ==================== */
 
 @media (width < 1279px) {
-  /* common
-  -------------------- */
-
-  .container {
-    max-width: 1280px;
-    padding: 0 4%;
-    margin: 0 auto;
-  }
-
   /* main
   -------------------- */
 
