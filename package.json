@@ -15,10 +15,12 @@
     "fix:markuplint": "npm run lint:markuplint -- --fix",
     "fix:stylelint": "npm run lint:stylelint -- --fix",
     "fix:prettier": "npm run check:prettier -- --write",
+    "deploy": "npm run build && gh-pages -d dist",
     "prepare": "simple-git-hooks || echo 'Can not set git hooks'"
   },
   "devDependencies": {
     "browserslist": "^4.22.2",
+    "gh-pages": "^6.1.0",
     "lightningcss": "^1.22.1",
     "markuplint": "^3.15.0",
     "nano-staged": "^0.8.0",

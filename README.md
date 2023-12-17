@@ -8,14 +8,14 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://h-yoshikawa44.github.io/ch-testmonial-page/">
+    <a href="https://h-yoshikawa44.github.io/ch-testmonial-page/">
       Demo
     </a>
-    <span> | </span> -->
-    <!-- <a href="">
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/4498">
       Solution
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <a href="https://devchallenges.io/challenge/29">
       Challenge
     </a>
@@ -43,11 +43,11 @@
 
 ### Desktop
 
-（スクショを貼る）
+![overview - desktop](./screenshots/desktop.png)
 
 ### Mobile
 
-（スクショを貼る）
+<img src="./screenshots/mobile.png" alt="overview - mobile" width="50%">
 
 ### Built With
 
@@ -70,12 +70,12 @@ Other major libraries
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenge/29) was to build an application to complete the given user stories.
 
-- [ ] Create a testimonial page that matches the given design.
-- [ ] Use HTML to create the basic structure.
-- [ ] Add heading, body text, checklists according to the design.
-- [ ] Add 2 testimonial cards according to the design.
-- [ ] Use CSS to style the card.
-- [ ] The page should be responsive on different screen sizes.
+- [x] Create a testimonial page that matches the given design.
+- [x] Use HTML to create the basic structure.
+- [x] Add heading, body text, checklists according to the design.
+- [x] Add 2 testimonial cards according to the design.
+- [x] Use CSS to style the card.
+- [x] The page should be responsive on different screen sizes.
 
 ## How To Use
 
@@ -98,13 +98,16 @@ npm run dev
 
 ## learned/improved
 
-（後で書く）
+- Reviewed how to assemble Grid Layout.
+- I tried to style it on a mobile layout basis.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-（後で書く）
+- [Tailwind CSS - Container](https://tailwindcss.com/docs/container)
+- [【CSS】疑似要素の画像サイズを変更する方法](https://saruwakakun.com/html-css/reference/change-before-after)
+- [【CSS】aspect-ratioでアスペクト比(縦横比)を固定したレスポンシブ対応方法を解説](https://miyattiblog.com/fixed-aspect-ratio/)
 
 ## Contact
 
