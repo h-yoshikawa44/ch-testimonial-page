@@ -44,3 +44,51 @@ a {
   padding: 0 4%;
   margin: 0 auto;
 }
+
+/* main
+-------------------- */
+
+.testmonial-card {
+  width: 360px;
+  padding: 28px 36px 32px;
+  background-color: var(--card);
+  border-radius: 12px;
+  box-shadow: 0 30px 100px 0 rgb(17 23 41 / 5%);
+}
+
+.testmonial-card__header {
+  display: flex;
+  align-items: center;
+}
+
+.testmonial-card__logo {
+  width: 88px;
+  height: 36px;
+}
+
+.testmonial-card__five-star {
+  display: flex;
+  margin-left: 16px;
+}
+
+.testmonial-card__star {
+  margin-left: 4px;
+}
+
+.testmonial-card__star:last-child {
+  margin-right: 0;
+}
+
+.testmonial-card__name {
+  display: block;
+  margin-top: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.testmonial-card__comment {
+  margin-top: 12px;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
