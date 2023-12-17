@@ -51,13 +51,8 @@ a {
   }
 }
 
+/* デザインの都合で 1024px から、この max-width にする */
 @media (width > 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (width > 1280px) {
   .container {
     max-width: 1280px;
   }
@@ -89,25 +84,40 @@ a {
 /* Layout */
 
 .reviewers-section {
-  display: grid;
-  grid-template-rows: repeat(2, 188px);
-  grid-template-columns: repeat(12, 1fr);
-  gap: 40px 32px;
-}
-
-.layout__reviewers {
-  grid-row: 1 / 3;
-  grid-column: 1 / 7;
+  display: flex;
+  flex-direction: column;
 }
 
 .layout__testmonial-card-google {
-  grid-row: 1 / 2;
-  grid-column: 9 / 13;
+  margin-left: auto;
 }
 
 .layout__testmonial-card-meta {
-  grid-row: 2 / 3;
-  grid-column: 7 / 11;
+  margin-right: auto;
+}
+
+@media (width > 1024px) {
+  .reviewers-section {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(188px, 1fr));
+    grid-template-columns: repeat(12, 1fr);
+    gap: 40px 32px;
+  }
+
+  .layout__reviewers {
+    grid-row: 1 / 3;
+    grid-column: 1 / 7;
+  }
+
+  .layout__testmonial-card-google {
+    grid-row: 1 / 2;
+    grid-column: 9 / 13;
+  }
+
+  .layout__testmonial-card-meta {
+    grid-row: 2 / 3;
+    grid-column: 7 / 11;
+  }
 }
 
 /* Reviewers */
@@ -178,7 +188,7 @@ a {
 
 .testmonial-card__logo {
   width: 88px;
-  height: 36px;
+  height: auto;
 }
 
 .testmonial-card__five-star {
@@ -206,27 +216,4 @@ a {
   margin-top: 12px;
   font-size: 1rem;
   color: var(--text-secondary);
-}
-
-/* ====================
-mobile～laptop
-==================== */
-
-@media (width < 1279px) {
-  /* main
-  -------------------- */
-
-  /* Layout */
-  .reviewers-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .layout__testmonial-card-google {
-    margin-left: auto;
-  }
-
-  .layout__testmonial-card-meta {
-    margin-right: auto;
-  }
 }
