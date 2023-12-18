@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Testmonial Page</h1>
+<h1 align="center">Testimonial Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://h-yoshikawa44.github.io/ch-testmonial-page/">
+    <a href="https://h-yoshikawa44.github.io/ch-testimonial-page/">
       Demo
     </a>
     <span> | </span>
