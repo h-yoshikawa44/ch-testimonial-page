@@ -3,7 +3,7 @@ import { browserslistToTargets } from 'lightningcss';
 import browserslist from 'browserslist';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/ch-testmonial-page/' : './',
+  base: process.env.NODE_ENV === 'production' ? '/ch-testimonial-page/' : './',
   server: {
     open: true,
   },
